@@ -1,0 +1,13 @@
+# npm
+node_modules
+
+# dist file
+dist
+
+# Editor directories and files
+*.log*
+.cache
+.DS_Store
+.idea
+.vscode
+.svn
