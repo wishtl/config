@@ -1,0 +1,9 @@
+{
+  "/api": {
+    "target": "http://www.baidu.com/",
+    "pathRewrite": {
+      "^/api": ""
+    },
+    "changeOrigin ": true
+  }
+}

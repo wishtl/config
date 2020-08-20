@@ -8,6 +8,7 @@
   "parserOptions": {
     "ecmaVersion": 10,
     "sourceType": "module",
+    "parser": "babel-eslint",
     "ecmaFeatures": {
       "globalReturn": true,
       "impliedStrict": true,
@@ -19,7 +20,15 @@
     "plugin:vue/recommended",
     "airbnb-base"
   ],
-  "rules": {
-
-  }
+  "overrides": [
+    {
+      "files": [
+        "*.html"
+      ],
+      "rules": {
+        "vue/comment-directive": "off"
+      }
+    }
+  ],
+  "rules": {}
 }

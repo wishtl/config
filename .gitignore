@@ -5,6 +5,7 @@ node_modules
 dist
 
 # Editor directories and files
+.parcel-cache
 *.log*
 .cache
 .DS_Store
